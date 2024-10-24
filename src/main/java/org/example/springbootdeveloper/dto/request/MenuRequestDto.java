@@ -1,21 +1,24 @@
 package org.example.springbootdeveloper.dto.request;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
+
 
 @Data
 @NoArgsConstructor
 public class MenuRequestDto {
-    @NonNull
+    @NotNull
     private String name;
-    @NonNull
+    @NotNull
     private String description;
-    @NonNull
+    @Min(0)
+    @NotNull
     private int price;
-    @NonNull
+    @NotNull
     private boolean isAvailable;
-    @NonNull
+    @NotNull
     private String category;
     private String size;
 }

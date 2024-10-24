@@ -10,8 +10,10 @@ public class ResponseMessage {
     // 존재 여부 관련 메시지
     public static final String EXIST_DATA = "Data already exists."; // 데이터가 이미 존재할 때 반환 메시지
 
+
     public static final String NOT_EXIST_DATA = "Data does not exist."; // 데이터가 존재하지 않을 때 반환 메시지
     public static final String NOT_EXIST_USER = "User does not exist."; // 사용자가 존재하지 않을 때 반환 메시지
+    public static final String NOT_EXIST_MENU = "Menu does not exist.";
 
     // EX) 존재 여부 관련 메시지 예시 - 확인 후 생략 가능
     // : 검색한 데이터에 대한 응답 메시지

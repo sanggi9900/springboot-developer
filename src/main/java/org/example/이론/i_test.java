@@ -1,6 +1,7 @@
 package org.example.이론;
 
-public class i_test {
+public class
+i_test {
 
     // 테스트 코드
 

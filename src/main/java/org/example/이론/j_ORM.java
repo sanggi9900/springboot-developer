@@ -83,4 +83,13 @@ public class j_ORM {
     // cf) 옵션은 '옵션명 = 옵션사항'으로 명시
     // @Colum(name = "user_password", nullable = false, unique = true)
 
+    // cf) JPA(ORM, 객체와 RDMS의 연결) VS MyBatis(SQL Mapper, SQL 중심 접근)
+
+
+    // == 환경 설정 ==
+    // 1) build.gradle
+    // 필요한 의존성: Spring Data JPA, MySQL Driver
+
+    // 2) application.properties, application.yml
+    // 애플리케이션 설정: 연결할 DB와 사용자 정보, 비밀번호 등을 설정
 }
